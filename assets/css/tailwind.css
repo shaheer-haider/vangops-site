@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    line-height: inherit;
+    margin: 0;
+    @apply bg-bgColor text-paraColor;
+}
+
+
+.top-radial {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1131px;
+    height: 1131px;
+    left: 0px;
+    bottom: 50%;
+
+    background: radial-gradient(45.41% 45.41% at 50% 50%, #E81C25 0%, rgba(232, 28, 37, 0) 100%);
+    opacity: 0.2;
+    border: 1px solid #000000;
+
+}
+
+
+.bottom-radial {
+    position: absolute;
+    width: 1131px;
+    height: 1131px;
+    right: 0px;
+    top: 100%;
+
+    /* Background Gradient Color */
+    background: radial-gradient(45.41% 45.41% at 50% 50%, #E81C25 0%, rgba(232, 28, 37, 0) 100%) ;
+    opacity: 0.2;
+
+}
