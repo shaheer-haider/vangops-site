@@ -1,11 +1,9 @@
 <template>
   <div class="flex flex-col justify-between min-h-screen">
-    <div class="relative max-w-screen-xl mx-auto">
+    <div class="relative">
       <Header />
-      <NuxtPage class="mt-20 bg-blue-50" />
-      <div class="bottom-radial"></div>
-      <div class="top-radial"></div>
+      <NuxtPage class="max-w-screen-xl mt-20 w-full mx-auto" />
     </div>
-    <Footer />
+    <Footer v-for="x in 200" />
   </div>
 </template>

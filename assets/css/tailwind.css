@@ -10,15 +10,12 @@ body {
 }
 
 
-.top-radial {
+.radial {
     box-sizing: border-box;
 
     position: absolute;
     width: 1131px;
     height: 1131px;
-    left: 0px;
-    bottom: 50%;
-
     background: radial-gradient(45.41% 45.41% at 50% 50%, #E81C25 0%, rgba(232, 28, 37, 0) 100%);
     opacity: 0.2;
     border: 1px solid #000000;
@@ -26,15 +23,18 @@ body {
 }
 
 
-.bottom-radial {
-    position: absolute;
-    width: 1131px;
-    height: 1131px;
-    right: 0px;
-    top: 100%;
+.title {
+    @apply font-bold text-6xl text-headingColor
+}
 
-    /* Background Gradient Color */
-    background: radial-gradient(45.41% 45.41% at 50% 50%, #E81C25 0%, rgba(232, 28, 37, 0) 100%) ;
-    opacity: 0.2;
+.title-small {
+    @apply font-bold text-xl text-headingColor
+}
 
+.title-small-primary {
+    @apply font-bold text-2xl text-primary
+}
+
+.para {
+    @apply text-lg text-paraColor
 }

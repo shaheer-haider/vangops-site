@@ -1,7 +1,7 @@
 <template>
-  <nav class="fixed w-full z-20 top-0 left-0 p-3">
+  <nav class="fixed w-full z-20 top-0 left-0 p-3 ">
     <div
-      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 py-3 rounded-lg bg-primary06 shadow-[#0011FF88_0px_0px_4px]"
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 py-3 rounded-lg bg-primary06 shadow-[#E81C2588_0px_0px_4px] bg-cardColor  "
     >
       <NuxtLink to="/" class="flex items-center">
         <img
@@ -54,15 +54,15 @@ const siteName = "Vanguard Ops"
 const navLinks = [
     {
         name: "Services",
-        path: "/services"
+        path: "/"
     },
     {
         name: "About",
-        path: "/about"
+        path: "/"
     },
     {
         name: "Contact",
-        path: "/contact"
+        path: "/"
     }
 ]
 </script>
