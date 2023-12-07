@@ -12,13 +12,13 @@ body {
 
 .radial {
     box-sizing: border-box;
-
     position: absolute;
     width: 1131px;
     height: 1131px;
     background: radial-gradient(45.41% 45.41% at 50% 50%, #E81C25 0%, rgba(232, 28, 37, 0) 100%);
     opacity: 0.2;
     border: 1px solid #000000;
+    z-index: -1;
 
 }
 
@@ -27,8 +27,19 @@ body {
     @apply font-bold text-6xl text-headingColor
 }
 
+.title-medium {
+    @apply font-bold text-4xl text-headingColor
+}
+
+.title-2xl {
+    @apply font-bold text-2xl text-headingColor
+}
+
 .title-small {
     @apply font-bold text-xl text-headingColor
+}
+.title-xs {
+    @apply font-bold text-lg text-headingColor
 }
 
 .title-small-primary {
@@ -37,4 +48,15 @@ body {
 
 .para {
     @apply text-lg text-paraColor
+}
+.para-small {
+    @apply text-paraColor
+}
+
+.glowy-container {
+    @apply rounded-2xl border border-[#E81C253F] shadow-[#E81C253F_0px_0px_20px] bg-cardColor;
+}
+
+.btn-primary {
+    @apply bg-primary hover:bg-stroke border border-primary transition-all rounded-lg py-2 px-5 font-medium text-headingColor cursor-pointer;
 }

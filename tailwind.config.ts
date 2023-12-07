@@ -19,6 +19,7 @@ export default {
           primary: '#E81C25',
           stroke: '#640E12',
           cardColor: '#0E0B0B',
+          footerColor: '#0F1314',
         }
       }
     },
