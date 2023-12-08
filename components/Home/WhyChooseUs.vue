@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-between items-center py-28 px-10 sm:px-20">
     <div class="relative">
-      <img src="@/assets/images/think-and-work.png" />
+      <img src="@/assets/images/home/think-and-work.png" />
       <div class="top-[-70%] left-[-85%] radial absolute" />
     </div>
     <div class="max-w-xl">

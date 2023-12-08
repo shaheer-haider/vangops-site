@@ -52,7 +52,7 @@ const siteName = "Vanguard Ops";
 const navLinks = [
   {
     name: "Services",
-    path: "/",
+    path: "/services",
   },
   {
     name: "About",

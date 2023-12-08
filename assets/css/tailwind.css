@@ -60,3 +60,7 @@ body {
 .btn-primary {
     @apply bg-primary hover:bg-stroke border border-primary transition-all rounded-lg py-2 px-5 font-medium text-headingColor cursor-pointer;
 }
+
+.glowy-border {
+    @apply border-y border-[#E81C253F] bg-cardColor;
+}

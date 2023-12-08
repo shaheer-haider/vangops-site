@@ -6,8 +6,8 @@
       title="Vanguard Ops"
       smallTitlePrimary="Developing and Protecting"
       smallTitle="The Public Interest"
-      para="Cybersecurity for Government and the People"
-      image="@/assets/images/hero.png"
+      paraSmall="Cybersecurity for Government and the People"
+      :image="HeroImage"
     />
 
     <HomeWeGetItDoneSection />
@@ -29,3 +29,10 @@
     <HomeOurServices />
   </div>
 </template>
+
+<script setup>
+import HeroImage from "@/assets/images/home/hero.png"
+
+
+
+</script>
