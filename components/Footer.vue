@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="bottom-0 left-0 radial" />
+    <!-- <div class="bottom-0 left-0 radial" /> -->
     <div class="mx-auto bg-footerColor z-10 w-full mt-20 pt-20 min-h-[400px]">
       <div class="max-w-7xl mx-auto flex items-center justify-between">
         <img src="@/assets/images/logo-large.png" class="mr-3" alt="vanops" />
