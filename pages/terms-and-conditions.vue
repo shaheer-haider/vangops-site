@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-10 max-w-screen-xl">
     <h1 class="title text-center py-28 max-w-xl m-auto !leading-[1.2]">
       Terms and Conditions of Use
     </h1>

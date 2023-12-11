@@ -1,6 +1,7 @@
 <template>
-  <div class="flex justify-between items-center py-28 px-10 sm:px-20">
-    <div class="relative">
+  <div class="flex justify-between items-center py-28 px-4 sm:px-10 md:px-20">
+    <div class="relative hidden lg:block">
+
       <img src="@/assets/images/home/think-and-work.png" />
       <div class="top-[-70%] left-[-85%] radial absolute" />
     </div>

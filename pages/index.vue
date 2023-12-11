@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-10 max-w-screen-xl">
     <div class="-top-40 right-0 radial" />
 
     <HeroSection
@@ -21,7 +21,7 @@
       </p>
     </div>
     <div class="flex flex-wrap gap-y-14 gap-x-10 justify-center">
-      <FeaturesCard v-for="x in 4" />
+      <FeaturesCard v-for="feature in featuresData" :title="feature.title" :description="feature.description" :image="feature.image" />
     </div>
 
     <HomeWhyChooseUs class="my-16" />
@@ -33,6 +33,27 @@
 <script setup>
 import HeroImage from "@/assets/images/home/hero.png"
 
-
+const featuresData = [
+  {
+    title: "Integrity",
+    description: "We uphold and exemplify a superior set of moral and ethical principles, consistently choosing to do what is right, irrespective of external scrutiny.",
+    image: 'integrity'
+  },
+  {
+    title: "Accountability",
+    description: "We fully embrace the consequences of our actions, willingly taking ownership and holding ourselves and each other accountable. Our commitment extends to our words, actions, and the outcomes we generate.",
+    image: 'accountability'
+  },
+  {
+    title: "Professional",
+    description: "We are trustworthy and ensure the fulfillment of our commitments. In instances where unforeseen circumstances hinder us from meeting expectations, we address the situation with transparent communication to rectify the issue.",
+    image: 'professional'
+  },
+  {
+    title: "Collaboration",
+    description: "We actively engage in mutual growth, offering assistance and encouragement to achieve collective objectives through reciprocity. We embrace challenging conversations, maintain open-mindedness, avoid assumptions, pose and answer questions, and rely on collective problem-solving.",
+    image: 'collaboration'
+  },
+]
 
 </script>

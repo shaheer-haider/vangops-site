@@ -1,11 +1,11 @@
 <template>
-  <nav class="fixed w-full z-20 top-0 left-0 p-4">
-    <div class="max-w-screen-xl mx-auto px-10">
+  <nav class="fixed w-full z-50 top-0 left-0 p-4">
+    <div class="max-w-screen-xl mx-auto px-4 md:px-10">
       <div
         class="flex flex-wrap items-center justify-between mx-auto px-6 py-4 glowy-container"
       >
         <NuxtLink to="/" class="flex items-center">
-          <img src="@/assets/images/logo.png" class="mr-3" :alt="siteName + ' Logo'" />
+          <img src="@/assets/images/logo.png" :alt="siteName + ' Logo'" />
         </NuxtLink>
         <div class="flex md:order-2">
           <a class="hidden md:block" />
@@ -55,12 +55,16 @@ const navLinks = [
     path: "/services",
   },
   {
+    name: "Projects",
+    path: "/projects",
+  },
+  {
     name: "About",
     path: "/about",
   },
   {
     name: "Contact",
-    path: "/",
+    path: "/contact",
   },
 ];
 </script>

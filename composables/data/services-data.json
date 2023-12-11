@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Consulting",
+    "description": "Say goodbye to security threats with our risk assessment services. Our cybersecurity experts will find any weak points in your company's defenses",
+    "slug": "consulting",
+    "image": "/images/services/consulting.png"
+  },
+  {
+    "id": 2,
+    "name": "Security Auditing and Testing",
+    "description": "Preparing for cybersecurity audits involves a comprehensive approach to ensure that your organization is secure and compliant",
+    "slug": "auditing-and-testing",
+    "image": "/images/services/sec-and-audit.png",
+    "sectionsContent": [
+      {
+        "title": "Our Commitment",
+        "subSections": [
+          {
+            "title": "Tailored Services for Mission Success",
+            "content": "Our services encompass a comprehensive array of cybersecurity solutions, including consulting, security audit and testing, incident response planning, data privacy services, infrastructure monitoring and reporting, security awareness training, and more. Each service is meticulously designed to meet the specific needs of government and public sector operations."
+          },
+          {
+            "title": "Our Commitment",
+            "content": "We understand the unique challenges faced by government and public sector organizations. At Vanguard Ops, we see ourselves not just as service providers but as strategic partners committed to enhancing your cybersecurity posture."
+          }
+        ]
+      },
+      {
+        "title": "Why Choose Vanguard Ops?",
+        "subSections": [
+          {
+            "title": "Government-Centric Expertise",
+            "content": "Our team comprises cybersecurity experts with a deep understanding of the intricacies involved in securing government and public sector entities. We bring specialized knowledge to the table, ensuring that our solutions align seamlessly with your critical missions."
+          },
+          {
+            "title": "Compliance Assurance",
+            "content": "We recognize the paramount importance of compliance within the public sector. Our services are crafted with a steadfast commitment to meeting and exceeding regulatory standards, including those set forth by NIST, FISMA, ISO27001, and more."
+          },
+          {
+            "title": "Holistic Approach to Cybersecurity",
+            "content": "At Vanguard Ops, we don't just offer services; we provide a holistic approach to cybersecurity. From proactive consulting to incident response planning, our goal is to create a resilient cybersecurity ecosystem that safeguards your operations at every level."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Incident Response Planning",
+    "description": "Our team comprises seasoned cybersecurity professionals with a deep understanding of the unique challenges faced by government and public sector organizations.",
+    "slug": "incident-response",
+    "image": "/images/services/incident-report.png"
+  },
+  {
+    "id": 4,
+    "name": "Data Privacy",
+    "description": "Our team brings a wealth of experience in navigating the intricate data privacy requirements specific to the U.S. government and the Public Sector.",
+    "slug": "incident-response",
+    "image": "/images/services/data-privacy.png"
+  },
+  {
+    "id": 5,
+    "name": "Infrastructure Monitoring and Reporting",
+    "description": "At Vanguard Ops we recognize that the backbone of your operations lies in your infrastructure.",
+    "slug": "incident-response",
+    "image": "/images/services/infra-monitor-and-report.png"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Cloud Workstation and Labs System",
+    "description": "Cloud Workstation and Labs System for an e-learning organization, ensuring students could easily perform remote labs. We expertly designed the architecture, collaborated on UI/UX, and implemented the backend integration with AWS, enabling users to launch machines based on token usage for diverse computing needs.",
+    "image": "/images/projects/cloud.jpg",
+    "categories": [
+      "Software Development",
+      "Web Design"
+    ],
+    "services": [
+      1,
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "name": "Cloud Workstation and Labs System",
+    "description": "Cloud Workstation and Labs System for an e-learning organization, ensuring students could easily perform remote labs. We expertly designed the architecture, collaborated on UI/UX, and implemented the backend integration with AWS, enabling users to launch machines based on token usage for diverse computing needs.",
+    "image": "/images/projects/cloud_2.png",
+    "categories": [
+      "Cloud Computing",
+      "UI/ UX Design"
+    ],
+    "services": [
+      1,
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "name": "Cyber Security and Hacking Labs",
+    "description": "We developed a platform where users can learn hacking by attacking vulnerable systems in a private network by connecting with using site-to-site VPNs.",
+    "image": "/images/projects/hacking_labs.jpg",
+    "categories": [
+      "Cyber Security",
+      "Software Development",
+      "Cloud Computing"
+    ],
+    "services": [
+      1,
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "name": "E-Learning Application (LMS)",
+    "description": "We designed and implemented a Learning Management System (LMS) for an E-Learning Organization, incorporating robust security measures to monitor both application and infrastructure security.",
+    "image": "/images/projects/academy.png",
+    "categories": [
+      "Software Development",
+      "Web Design"
+    ],
+    "services": [
+      1,
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "name": "Car Market Japan",
+    "description": "We are the creative minds behind the website and affiliate system for Car Market Japan, a leading platform that presents a carefully curated collection of top-notch used Japanese cars.",
+    "image": "/images/projects/cmarketjapan.png",
+    "categories": [
+      "Software Development",
+      "Web Design"
+    ],
+    "services": [
+      1,
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "name": "Email Templates",
+    "description": "We create premium email templates crafted to effectively promote your business or keep your audience informed in a compelling manner.",
+    "image": "/images/projects/email.jpg",
+    "categories": [
+      "UI/ UX Design",
+      "Web Design"
+    ],
+    "services": [
+      1,
+      5,
+      6,
+      9
+    ]
+  }
+]

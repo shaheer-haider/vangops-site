@@ -1,3 +1,23 @@
+const redTheme = {
+  bgColor: '#070C0E',
+  headingColor: '#FFFFFF',
+  paraColor: '#AAAAAA',
+  primary: '#E81C25',
+  stroke: '#640E12',
+  cardColor: '#0E0B0B',
+  footerColor: '#0F1314',
+}
+
+const purpleTheme = {
+  bgColor: '#FFFFFF',
+  headingColor: '#070C0E',
+  paraColor: '#AAAAAA',
+  primary: '#481CE8',
+  stroke: '#250E64',
+  cardColor: '#0E0B0B',
+  footerColor: '#0F1314',
+}
+
 export default {
     theme: {
       screens: {
@@ -12,15 +32,7 @@ export default {
       },
 
       extend: {
-        colors: {
-          bgColor: '#070C0E',
-          headingColor: '#FFFFFF',
-          paraColor: '#AAAAAA',
-          primary: '#E81C25',
-          stroke: '#640E12',
-          cardColor: '#0E0B0B',
-          footerColor: '#0F1314',
-        }
+        colors: redTheme
       }
     },
     content: [

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-10 max-w-screen-xl">
     <div class="-top-40 right-0 radial" />
     <HeroSection
       title="About"
@@ -8,7 +8,7 @@
     />
 
     <div
-      class="py-12 px-10 sm:px-20 w-full glowy-container max-w-screen-xl mx-auto space-y-20"
+      class="py-12 px-4 sm:px-6 md:px-10 lg:px-20 w-full glowy-container max-w-screen-xl mx-auto space-y-20"
     >
       <div v-for="sectionContent in sectionsContent" class="">
         <h2 class="title-medium mb-6">{{ sectionContent.title }}</h2>
