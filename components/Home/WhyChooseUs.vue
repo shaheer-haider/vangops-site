@@ -1,16 +1,23 @@
 <template>
   <div class="flex justify-between items-center py-28 px-4 sm:px-10 md:px-20">
     <div class="relative hidden lg:block">
-
-      <img src="@/assets/images/home/think-and-work.png" />
+      <img
+        class="anim anim-fade-up"
+        anim="fade-up"
+        src="@/assets/images/home/think-and-work.png"
+      />
       <div class="top-[-70%] left-[-85%] radial absolute" />
     </div>
     <div class="max-w-xl">
-      <h2 class="title-medium">Why Choose Vanguard Ops?</h2>
+      <h2 class="title-medium anim anim-fade-up" anim="fade-up">
+        Why Choose Vanguard Ops?
+      </h2>
       <div class="w-full h-[1px] bg-stroke mt-4 mb-6" />
       <div v-for="feature in features" class="space-y-2 mb-10">
-        <h3 class="title-2xl !text-primary">{{ feature.title }}</h3>
-        <h4 class="para">
+        <h3 anim="fade-up" class="title-2xl !text-primary anim anim-fade-up">
+          {{ feature.title }}
+        </h3>
+        <h4 anim="fade-up" class="para anim anim-fade-up">
           {{ feature.content }}
         </h4>
       </div>

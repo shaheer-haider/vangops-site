@@ -19,8 +19,8 @@
       v-if="projects?.length"
 
       >
-        <div v-for="project in projects" class="glowy-container p-6 max-w-[420px]">
-          <img :src="project.image" class="rounded-2xl" />
+        <div v-for="project in projects" class="glowy-container hover:bg-stroke transition-all p-6 max-w-[420px]">
+          <img :src="project.image" class="rounded-2xl aspect-video" />
           <h3 class="text-3xl font-bold text-headingColor text-center pt-5">
             {{ project.name }}
           </h3>

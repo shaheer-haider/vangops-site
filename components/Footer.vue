@@ -8,20 +8,8 @@
           <div>
             <h5 class="title-small mb-2">Core Services</h5>
             <ul class="space-y-1 para">
-              <ol>
-                Security Auditing
-              </ol>
-              <ol>
-                Software Development
-              </ol>
-              <ol>
-                Infrastructure Monitoring
-              </ol>
-              <ol>
-                Security Auditing
-              </ol>
-              <ol>
-                Infrastructure Monitoring
+              <ol v-for="service in allServicesData">
+                <NuxtLink class="hover:text-primary" :to="'/services/' + service.slug">{{service.name}}</NuxtLink>
               </ol>
             </ul>
           </div>
@@ -68,4 +56,5 @@
 </template>
 
 <script setup>
+import allServicesData from "~/composables/data/services-data.json";
 </script>

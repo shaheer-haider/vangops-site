@@ -8,6 +8,9 @@
           <img src="@/assets/images/logo.png" :alt="siteName + ' Logo'" />
         </NuxtLink>
         <div class="flex md:order-2">
+          <a target="_blank" class="hidden md:block" href="https://www.linkedin.com/company/vanguard-ops/">
+            <Icon class="text-xl text-headingColor hover:text-primary" name="bi:linkedin" />
+          </a>
           <a class="hidden md:block" />
           <button
             @click="showMobileDrawer = !showMobileDrawer"
@@ -36,8 +39,10 @@
                 >{{ navLink.name }}</NuxtLink
               >
             </li>
-            <li>
-              <a></a>
+            <li class="pl-4 block md:hidden">
+              <a target="_blank" href="https://www.linkedin.com/company/vanguard-ops/">
+                <Icon class="text-xl text-headingColor hover:text-primary" name="bi:linkedin" />
+              </a>
             </li>
           </ul>
         </div>

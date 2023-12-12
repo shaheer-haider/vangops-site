@@ -56,14 +56,14 @@
     "id": 4,
     "name": "Data Privacy",
     "description": "Our team brings a wealth of experience in navigating the intricate data privacy requirements specific to the U.S. government and the Public Sector.",
-    "slug": "incident-response",
+    "slug": "data-privacy",
     "image": "/images/services/data-privacy.png"
   },
   {
     "id": 5,
     "name": "Infrastructure Monitoring and Reporting",
     "description": "At Vanguard Ops we recognize that the backbone of your operations lies in your infrastructure.",
-    "slug": "incident-response",
+    "slug": "infrastructure-monitoring",
     "image": "/images/services/infra-monitor-and-report.png"
   }
 ]

@@ -9,6 +9,9 @@ body {
     @apply bg-bgColor text-paraColor;
 }
 
+.router-link-exact-active{
+    @apply text-primary
+}
 
 .radial {
     box-sizing: border-box;
@@ -38,6 +41,7 @@ body {
 .title-small {
     @apply font-bold text-lg sm:text-xl text-headingColor
 }
+
 .title-xs {
     @apply font-bold text-lg text-headingColor
 }
@@ -49,6 +53,7 @@ body {
 .para {
     @apply text-lg text-paraColor
 }
+
 .para-small {
     @apply text-paraColor
 }
@@ -64,3 +69,84 @@ body {
 .glowy-border {
     @apply border-y border-[#E81C253F] bg-cardColor;
 }
+
+/* ANIMATION */
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-3%);
+        transform: translateY(-3%);
+    }
+}
+
+@keyframes slide-top {
+
+    0%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(-3%);
+        transform: translateY(-3%);
+    }
+}
+
+.anim {
+    transition: all 1s;
+}
+
+.anim-fade-up {
+    opacity: 0;
+    filter: blur(2%);
+    transform: translateY(10%);
+}
+
+.anim-fade-up-active {
+    opacity: 1;
+    filter: blur(0%);
+    transform: translateY(0%);
+}
+
+
+.anim-slide-up {
+    transform: translateY(10%);
+}
+
+.anim-slide-up-active {
+    transform: translateY(0%);
+}
+
+@keyframes fade-up {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade-up {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

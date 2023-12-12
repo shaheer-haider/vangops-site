@@ -8,13 +8,22 @@
     </h1>
 
     <div class="flex justify-center flex-wrap gap-7 pb-8">
-      <div v-for="service in allServicesData" class="flex flex-col w-[420px] glowy-container p-8 gap-8 justify-between">
+      <div
+        v-for="service in allServicesData"
+        class="flex flex-col w-[420px] glowy-container p-8 gap-8 justify-between hover:bg-stroke transition-all"
+      >
         <div>
           <img :src="service.image" alt="" class="pb-5" />
-          <h2 class="pb-2 pt-1 text-3xl font-bold text-headingColor">{{ service.name }}</h2>
+          <h2 class="pb-2 pt-1 text-3xl font-bold text-headingColor">
+            {{ service.name }}
+          </h2>
           <p class="para">{{ service.description }}</p>
         </div>
-          <NuxtLink :to="'/services/' + service.slug" class="btn-primary w-full block text-center text-lg">More Detail</NuxtLink>
+        <NuxtLink
+          :to="'/services/' + service.slug"
+          class="btn-primary w-full block text-center text-lg"
+          >More Detail</NuxtLink
+        >
       </div>
     </div>
   </div>
