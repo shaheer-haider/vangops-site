@@ -7,7 +7,7 @@
       <div class="glowy-container w-full">
         <div
           id="content-container"
-          class="flex flex-col md:flex-row items-center justify-between px-8 sm:px-10 md:px-20 py-10 gap-8 anim anim-fade-up"
+          class="flex flex-col md:flex-row items-center justify-between px-6 sm:px-10 md:px-20 py-10 gap-8 anim anim-fade-up"
           anim="fade-up"
         >
           <img
@@ -17,7 +17,7 @@
           />
           <div class="max-w-xl space-y-2 anim anim-fade-up" anim="fade-up">
             <h5 class="title-medium">{{ allServicesData[selectedServiceId].name }}</h5>
-            <p class="para min-w-[250px]">
+            <p class="para">
               {{ allServicesData[selectedServiceId].description }}
             </p>
             <NuxtLink
