@@ -1,10 +1,33 @@
 [
   {
+    "id": 5,
+    "name": "Infrastructure Monitoring and Reporting",
+    "description": "At Vanguard Ops we recognize that the backbone of your operations lies in your infrastructure.",
+    "slug": "infrastructure-monitoring",
+    "image": "/images/services/infra-monitor-and-report.png"
+  },
+  {
+    "id": 6,
+    "name": "Software Development",
+    "description": "Empower your business with our cutting-edge software development services, delivering tailored solutions for optimal performance and efficiency.",
+    "slug": "software-development",
+    "image": "/images/services/infra-monitor-and-report.png"
+  },
+
+  {
     "id": 1,
     "name": "Consulting",
     "description": "Say goodbye to security threats with our risk assessment services. Our cybersecurity experts will find any weak points in your company's defenses",
     "slug": "consulting",
     "image": "/images/services/consulting.png"
+  },
+
+  {
+    "id": 3,
+    "name": "Incident Response Planning",
+    "description": "Our team comprises seasoned cybersecurity professionals with a deep understanding of the unique challenges faced by government and public sector organizations.",
+    "slug": "incident-response",
+    "image": "/images/services/incident-report.png"
   },
   {
     "id": 2,
@@ -45,25 +68,21 @@
       }
     ]
   },
+
+
   {
-    "id": 3,
-    "name": "Incident Response Planning",
-    "description": "Our team comprises seasoned cybersecurity professionals with a deep understanding of the unique challenges faced by government and public sector organizations.",
-    "slug": "incident-response",
-    "image": "/images/services/incident-report.png"
+    "id": 7,
+    "name": "UI/ UX Design",
+    "description": "We transform the specifications into a prototype to facilitate seamless collaboration for your technical team.",
+    "slug": "ui-ux",
+    "image": "/images/services/UI-UX Designer.png"
   },
+  
   {
     "id": 4,
     "name": "Data Privacy",
     "description": "Our team brings a wealth of experience in navigating the intricate data privacy requirements specific to the U.S. government and the Public Sector.",
     "slug": "data-privacy",
     "image": "/images/services/data-privacy.png"
-  },
-  {
-    "id": 5,
-    "name": "Infrastructure Monitoring and Reporting",
-    "description": "At Vanguard Ops we recognize that the backbone of your operations lies in your infrastructure.",
-    "slug": "infrastructure-monitoring",
-    "image": "/images/services/infra-monitor-and-report.png"
   }
 ]

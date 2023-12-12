@@ -1,7 +1,7 @@
 [
   {
     "name": "Cloud Workstation and Labs System",
-    "description": "Cloud Workstation and Labs System for an e-learning organization, ensuring students could easily perform remote labs. We expertly designed the architecture, collaborated on UI/UX, and implemented the backend integration with AWS, enabling users to launch machines based on token usage for diverse computing needs.",
+    "description": "Created a Cloud Workstation and Labs System for an e-learning organization, streamlining remote labs with AWS integration for flexible machine launches based on token usage.",
     "image": "/images/projects/cloud.jpg",
     "categories": [
       "Software Development",
@@ -11,12 +11,13 @@
       1,
       4,
       6,
+      7,
       9
     ]
   },
   {
     "name": "Cloud Workstation and Labs System",
-    "description": "Cloud Workstation and Labs System for an e-learning organization, ensuring students could easily perform remote labs. We expertly designed the architecture, collaborated on UI/UX, and implemented the backend integration with AWS, enabling users to launch machines based on token usage for diverse computing needs.",
+    "description": "Created a Cloud Workstation and Labs System for an e-learning organization, streamlining remote labs with AWS integration for flexible machine launches based on token usage.",
     "image": "/images/projects/cloud_2.png",
     "categories": [
       "Cloud Computing",
@@ -61,6 +62,7 @@
       3,
       4,
       5,
+      7,
       6,
       9
     ]
@@ -74,6 +76,7 @@
       "Web Design"
     ],
     "services": [
+      7,
       6,
       9
     ]
@@ -87,6 +90,7 @@
       "Web Design"
     ],
     "services": [
+      7,
       6,
       9
     ]
