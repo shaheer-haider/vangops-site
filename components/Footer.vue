@@ -22,7 +22,7 @@
                   name="material-symbols:pin-drop"
                 />
               </div>
-              <span> 855 Brooklyn Ave #600, Brooklyn, NY 11203 </span>
+              <span> Connecticut, West Hartford 11203, US </span>
             </div>
             <div class="flex">
               <div>
@@ -43,7 +43,7 @@
       <div class="w-full max-w-7xl mt-10 m-auto">
         <div class="h-[1px] w-full max-w-7xl bg-stroke m-auto"></div>
         <div class="flex flex-wrap gap-8 justify-between mt-2">
-          <span>© copyright © 2023 | Vanguard Ops</span>
+          <span>© Copyright © 2023 | Vanguard Ops</span>
           <div class="flex flex-wrap gap-6">
             <NuxtLink to="/terms-and-conditions">Terms and Conditions</NuxtLink>
             <NuxtLink to="/privacy">Privacy</NuxtLink>
