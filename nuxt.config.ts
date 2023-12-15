@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['nuxt-icon', '@nuxtjs/tailwindcss', '@nuxt/devtools'],
+  modules: ['nuxt-icon', '@nuxtjs/tailwindcss', '@nuxt/devtools', 'nuxt-swiper'],
   css: ['~/assets/css/main.css'],
   app: {
     head: {

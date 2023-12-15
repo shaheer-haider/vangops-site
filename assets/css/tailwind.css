@@ -150,3 +150,7 @@ body {
     }
 }
 
+
+.services-swiper .swiper-pagination span {
+    @apply !bg-primary;
+}
