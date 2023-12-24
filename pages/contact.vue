@@ -118,20 +118,20 @@ async function submitForm() {
       title: "Thanks for reaching out to us",
       text: "We will get back to you soon.",
       icon: "success",
-      iconColor: "#481CE8",
+      iconColor: "#E81C25",
       color: "#ffffff",
       background: "#070C0E",
-      confirmButtonColor: "#481CE8",
+      confirmButtonColor: "#E81C25",
     });
   } else {
     Swal.fire({
       title: "Something went wrong",
       text: "Please use the live chat option to contact us meanwhile we'll fix it.",
       icon: "error",
-      iconColor: "#481CE8",
+      iconColor: "#E81C25",
       color: "#ffffff",
       background: "#070C0E",
-      confirmButtonColor: "#481CE8",
+      confirmButtonColor: "#E81C25",
     });
   }
 }

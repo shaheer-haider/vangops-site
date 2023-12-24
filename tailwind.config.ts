@@ -19,6 +19,17 @@ const purpleTheme = {
   footerColor: "#0F1314",
 };
 
+const lightRedTheme = {
+  bgColor: "#FFFFFF",
+  bgSecondaryColor: "#FCFAFF",
+  headingColor: "#070C0E",
+  paraColor: "#AAAAAA",
+  primary: "#E81C25",
+  stroke: "#640E12",
+  cardColor: "#0E0B0B",
+  footerColor: "#0F1314",
+};
+
 export default {
   theme: {
     screens: {
@@ -37,11 +48,20 @@ export default {
         bgColor: "#FFFFFF",
         headingColor: "#181818",
         paraColor: "#333333",
-        primary: "#9643FF",
-        stroke: "#E0C8FF",
-        cardColor: "#FCFAFF",
-        footerColor: "#FCFAFF",
+        primary: "#E81C25",
+        stroke: "#ffc5cb",
+        cardColor: "#fffbfb",
+        footerColor: "#fffbfb",
       },
+      // {
+      //   bgColor: "#FFFFFF",
+      //   headingColor: "#181818",
+      //   paraColor: "#333333",
+      //   primary: "#9643FF",
+      //   stroke: "#E0C8FF",
+      //   cardColor: "#FCFAFF",
+      //   footerColor: "#FCFAFF",
+      // },
     },
   },
   content: [

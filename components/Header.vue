@@ -5,7 +5,7 @@
         class="flex flex-wrap items-center justify-between mx-auto px-6 py-4 glowy-container"
       >
         <NuxtLink to="/" class="flex items-center">
-          <img src="@/assets/images/logo.png" :alt="siteName + ' Logo'" />
+          <img src="@/assets/images/logo-red.png" :alt="siteName + ' Logo'" />
         </NuxtLink>
         <div class="flex md:order-2">
           <a target="_blank" class="hidden md:block" href="https://www.linkedin.com/company/vanguard-ops/">

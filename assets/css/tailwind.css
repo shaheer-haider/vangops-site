@@ -18,7 +18,8 @@ body {
     position: absolute;
     width: 1131px;
     height: 1131px;
-    background: radial-gradient(45.41% 45.41% at 50% 50%, #b176ff 0%, rgba(255, 255, 255, 0.192) 100%);
+    background: radial-gradient(45.41% 45.41% at 50% 50%, #ffbbbe 0%, rgb(255 255 255 / 50%) 100%);
+    /* background: radial-gradient(45.41% 45.41% at 50% 50%, #E81C25 0%, rgba(255, 255, 255, 0) 100%); */
     opacity: 0.2;
     z-index: -1;
 
@@ -58,15 +59,15 @@ body {
 }
 
 .glowy-container {
-    @apply rounded-2xl border border-[#E0C8FF] shadow-[#E0C8FF3F_0px_0px_20px] bg-cardColor;
+    @apply rounded-2xl border border-stroke shadow-[#fbe5e73F_0px_0px_20px] bg-cardColor;
 }
 
 .btn-primary {
-    @apply bg-primary hover:bg-violet-600 border border-primary transition-all rounded-lg py-2 px-5 font-medium text-bgColor cursor-pointer;
+    @apply bg-primary hover:bg-red-700 border border-primary transition-all rounded-lg py-2 px-5 font-medium text-bgColor cursor-pointer;
 }
 
 .glowy-border {
-    @apply border-y border-[#E0C8FF] bg-cardColor;
+    @apply border-y border-stroke bg-cardColor;
 }
 
 /* ANIMATION */
