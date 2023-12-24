@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
     <!-- <div class="bottom-0 left-0 radial" /> -->
-    <div class="mx-auto bg-footerColor z-10 w-full mt-20 pt-20 min-h-[400px] px-8">
+    <div class="mx-auto bg-footerColor z-10 w-full mt-20 pt-20 min-h-[400px] px-8 pb-2">
       <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-8">
         <img src="@/assets/images/logo-large.png" class="mr-3" alt="vanops" />
         <div class="flex flex-wrap gap-y-5 gap-x-28">

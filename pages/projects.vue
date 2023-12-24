@@ -15,7 +15,7 @@
           @click="activeCategory = category"
           class="cursor-pointer relative text-center"
         >
-          <h2 class="text-lg text-white px-4">{{ category }}</h2>
+          <h2 class="text-lg text-primary px-4">{{ category }}</h2>
           <div
             :class="activeCategory == category ? '' : 'hidden'"
             class="w-full h-[3px] bg-primary mt-2"
