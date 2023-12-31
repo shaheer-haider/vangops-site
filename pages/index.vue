@@ -4,9 +4,8 @@
 
     <HeroSection
       title="Vanguard Ops"
-      smallTitlePrimary="Developing and Protecting"
-      smallTitle="The Public Interest"
-      paraSmall="Cybersecurity for Government and the People"
+      smallTitlePrimary="Government Centric Tech Excellence"
+      paraSmall="Empowering Progress, from Code to Compliance and Beyond. Innovating, Protecting, and Partnering for a Secure Tomorrow."
       :image="HeroImage"
     />
 
