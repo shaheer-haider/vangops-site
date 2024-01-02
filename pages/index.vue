@@ -39,7 +39,7 @@
 </template>
 
 <script setup>
-import HeroImage from "@/assets/images/home/hero.png";
+import HeroImage from "@/assets/images/home/hero-2.png";
 
 const featuresData = [
   {
