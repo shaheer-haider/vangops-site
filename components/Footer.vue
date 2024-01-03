@@ -22,7 +22,7 @@
                   name="material-symbols:pin-drop"
                 />
               </div>
-              <span> Connecticut, West Hartford 11203, US </span>
+              <span> Connecticut, West Hartford 06110, US </span>
             </div>
             <div class="flex">
               <div>
