@@ -43,7 +43,7 @@
       <div class="w-full max-w-7xl mt-10 m-auto">
         <div class="h-[1px] w-full max-w-7xl bg-stroke m-auto"></div>
         <div class="flex flex-wrap gap-8 justify-between mt-2">
-          <span>© Copyright © 2023 | Vanguard Ops</span>
+          <span>© Copyright © 2024 | Vanguard Ops</span>
           <div class="flex flex-wrap gap-6">
             <NuxtLink to="/terms-and-conditions">Terms and Conditions</NuxtLink>
             <NuxtLink to="/privacy">Privacy</NuxtLink>
