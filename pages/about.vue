@@ -50,7 +50,7 @@ const sectionsContent = [
     title: "Why Choose Vanguard Ops?",
     subSections: [
       {
-        title: "Government-Centric Expertise",
+        title: "Enterprise-Centric Expertise",
         content: `Our team comprises cybersecurity experts with a deep understanding of the intricacies involved in securing government and public sector entities. We bring specialized knowledge to the table, ensuring that our solutions align seamlessly with your critical missions.`,
       },
       {
