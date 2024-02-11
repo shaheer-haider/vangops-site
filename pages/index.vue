@@ -4,7 +4,7 @@
 
     <HeroSection
       title="Vanguard Ops"
-      smallTitlePrimary="Government Centric Tech Excellence"
+      smallTitlePrimary="Exterprise Centric Tech Excellence"
       paraSmall="Empowering Progress, from Code to Compliance and Beyond. Innovating, Protecting, and Partnering for a Secure Tomorrow."
       :image="HeroImage"
     />

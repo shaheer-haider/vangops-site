@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col lg:flex-row gap-10 justify-center lg:justify-between items-center py-20 md:py-28 px-2 md:px-10 sm:px-20 "
-    :class="reserved ? 'flex-row-reverse' : ''"
+    :class="props.reserved ? 'flex-row-reverse' : ''"
   >
     <div class="space-y-3 max-w-lg w-full">
       <h1 class="title">{{ props.title }}</h1>
