@@ -2,14 +2,16 @@
   <div class="px-10 max-w-screen-xl">
     <div class="-top-40 right-0 radial" />
 
-    <HeroSection
-      title="Vanguard Ops"
-      smallTitlePrimary="Exterprise Centric Tech Excellence"
+    <HeroSection title="Vanguard Ops" smallTitlePrimary="Exterprise Centric Tech Excellence"
       paraSmall="Empowering Progress, from Code to Compliance and Beyond. Innovating, Protecting, and Partnering for a Secure Tomorrow."
-      :image="HeroImage"
-    />
+      :image="HeroImage" />
 
     <HomeWeGetItDoneSection />
+
+
+    <div class="pt-40">  
+      <HomeOurPartners />
+    </div>
 
     <div class="pt-40 pb-20 text-center max-w-2xl mx-auto space-y-4">
       <h2 class="title-medium anim anim-fade-up" anim="fade-up">
@@ -22,14 +24,8 @@
       </p>
     </div>
     <div class="flex flex-wrap gap-y-14 gap-x-10 justify-center">
-      <FeaturesCard
-        v-for="(feature, index) in featuresData"
-        :title="feature.title"
-        :description="feature.description"
-        :image="feature.image"
-        class="anim anim-fade-up"
-        anim="fade-up"
-      />
+      <FeaturesCard v-for="(feature, index) in featuresData" :title="feature.title" :description="feature.description"
+        :image="feature.image" class="anim anim-fade-up" anim="fade-up" />
     </div>
 
     <HomeWhyChooseUs class="my-16" />
